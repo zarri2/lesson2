@@ -83,3 +83,49 @@
 // console.log(students.slice(2,))
 // var students= ["Peter" , "Joana", "Andrew", "Julio", "Kate", "Marie"];
 // console.log(students.slice(-3,-1))
+
+
+// function add() {
+//     var sum = parseInt( firstnum)+parseInt( Secondnum);
+//     return sum;
+//     console.log(sum);
+// }
+// let firstnum = document.getElementById("sum1").value;
+// let Secondnum = document.getElementById("sum2").value;
+
+// document.getElementById("para1").innerHTML = add();
+
+// function sumNumer(x,y)
+// {
+//     var sum = parseInt( x)+parseInt( y);
+//     return sum;
+    
+// }
+// function AddNumber()
+// {
+//     var a=document.getElementById("sum1").value;
+//     var b=document.getElementById("sum2").value;;
+// var sum=sumNumer(a,b);
+// document.getElementById("para1").innerHTML =sum;
+    
+
+// }
+
+
+
+// function add() {
+//     let firstnum = parseInt(document.getElementById("sum1").value);
+//     let Secondnum = parseInt(document.getElementById("sum2").value);
+//     let addition =firstnum+Secondnum
+//     document.getElementById("para5").innerHTML=addition;
+//     }
+
+function add() {
+    //var sum  = num1 + num2;
+   //document.getElementById("para5").innerHTML = sum;
+let firstnum = parseInt(document.getElementById("sum1").value);
+let Secondnum = parseInt(document.getElementById("sum2").value);
+let result = firstnum+Secondnum;
+document.getElementById("para1").innerHTML=`${result}`;
+}
+
